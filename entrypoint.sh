@@ -14,13 +14,6 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
   exit 1
 fi
 
-# Confirm configuration file exists
-
-if [ ! -f /vue.config.js ]; then
-    echo "Error: vue.config.js not found!"
-    exit 1
-fi
-
 # Start deployment
 
 yarn build
