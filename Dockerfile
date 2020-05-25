@@ -9,7 +9,8 @@ LABEL version="0.0.1"
 LABEL repository="https://github.com/jackdcasey/vue-cli-plugin-s3-deploy-action"
 LABEL maintainer="jackdcasey"
 
-RUN yarn add @vue/cli
+RUN yarn global add @vue/cli
 RUN yarn add vue-cli-plugin-s3-deploy@next
+RUN yarn build
 
 ENTRYPOINT ["yarn", "deploy"]
