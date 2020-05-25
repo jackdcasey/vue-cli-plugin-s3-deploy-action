@@ -15,6 +15,7 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
 fi
 
 # Start deployment
+
 yarn global add @vue/cli
 yarn add vue-cli-plugin-s3-deploy@next
 yarn install
