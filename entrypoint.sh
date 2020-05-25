@@ -28,4 +28,5 @@ fi
 
 # Start deployment
 
+yarn build
 yarn deploy

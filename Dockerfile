@@ -11,6 +11,6 @@ LABEL maintainer="jackdcasey"
 
 RUN yarn global add @vue/cli
 RUN yarn add vue-cli-plugin-s3-deploy@next
-RUN yarn build
 
-ENTRYPOINT ["yarn", "deploy"]
+ADD entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]
