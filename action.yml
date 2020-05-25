@@ -1,0 +1,9 @@
+name: "vue cli plugin s3 deploy action"
+description: "A Github action for vue-cli-plugin-s3-deploy"
+author: jackdcasey
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: upload-cloud
+  color: green
