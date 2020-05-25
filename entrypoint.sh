@@ -14,11 +14,6 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
   exit 1
 fi
 
-if [ -z "$AWS_REGION" ]; then
-  echo "Error: AWS_REGION is not set"
-  exit 1
-fi
-
 # Confirm configuration file exists
 
 if [ ! -f /vue.config.js ]; then
