@@ -1,5 +1,5 @@
 # vue-cli-plugin-s3-deploy-action
-A Github action for vue-cli-plugin-s3-deploy ☁️
+A Github action for [multiplegeorges/vue-cli-plugin-s3-deploy](https://github.com/multiplegeorges/vue-cli-plugin-s3-deploy) ☁️
 
 # In development!
 
